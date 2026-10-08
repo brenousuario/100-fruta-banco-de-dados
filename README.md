@@ -1,5 +1,42 @@
 # 100% Fruta · Gestão da produção artesanal e vendas
 
+> Projeto acadêmico de gestão: organização de insumos, produção por lote e vendas, com análise de dados para apoiar a tomada de decisão.
+
+**Tecnologias:** Python · PostgreSQL · SQL · Docker Compose · Ollama (integração opcional com IA)
+
+## Visão de gestão
+
+Este projeto conecta o estudo de banco de dados a processos de uma pequena operação de produção artesanal. O objetivo é demonstrar como registros organizados e consultas podem apoiar o acompanhamento da produção, do estoque e das vendas.
+
+| Frente de gestão | Aplicação no projeto |
+| --- | --- |
+| Suprimentos e estoque | Cadastro de fornecedores e insumos, saldos por lote e seleção assistida por PEPS. |
+| Produção | Registro de formulações, lotes produzidos e consumo efetivo de insumos. |
+| Comercial | Organização de clientes, canais de venda, pedidos e pagamentos. |
+| Análise de dados | Três consultas SQL com tabelas, gráficos e exportações em CSV e HTML. |
+| Apoio à decisão | Integração opcional com IA para interpretar resultados agregados, sujeita à revisão humana. |
+
+**Estágio:** protótipo acadêmico com dados fictícios. Os limites e as verificações pendentes estão descritos nas seções de testes e regras do protótipo.
+
+## Navegação do projeto
+
+- **Entender o estudo:** [relatório editável](docs/relatorio_editavel.md).
+- **Executar a aplicação:** [requisitos](#requisitos) e [instalação rápida](#instalação-rápida).
+- **Explorar as análises:** [resultados](resultados/) e [consultas SQL](sql/).
+- **Conferir a validação:** [documentação de validação](docs/VALIDACAO.md) e [testes](tests/).
+- **Preparar a apresentação:** [roteiro](docs/ROTEIRO_APRESENTACAO.md) e [checklist](docs/CHECKLIST.md).
+
+## Contato profissional
+
+**Breno Felisbino dos Anjos** — foco em gestão e interesse na aplicação de tecnologia a estudos, oportunidades profissionais e projetos para clientes.
+
+[LinkedIn de Breno Felisbino dos Anjos](https://www.linkedin.com/in/breno-felisbino-021ab9266/)
+
+---
+
+## Contexto acadêmico
+
+
 Projeto acadêmico de Banco de Dados, DEC7588, UFSC, 2026.2.
 Tema baseado no arquivo “Dossiê 100% Fruta.PDF”. O escopo cobre fornecedores,
 insumos, formulações, produção por lote, vendas, pagamentos e workshops.
