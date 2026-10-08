@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+resultados/analise_ia.md
+resultados/contexto_ia.json
+
+.env.*
+!.env.example
+.pytest_cache/
+.DS_Store
+Thumbs.db
+*.log
