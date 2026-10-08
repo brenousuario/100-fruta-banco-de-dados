@@ -1,0 +1,2954 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "Cliente demonstrativo 01",
+      "email": "cliente1@example.com",
+      "cidade": "Araranguá",
+      "telefone": null
+    },
+    {
+      "id": 2,
+      "nome": "Cliente demonstrativo 02",
+      "email": "cliente2@example.com",
+      "cidade": "Criciúma",
+      "telefone": null
+    },
+    {
+      "id": 3,
+      "nome": "Cliente demonstrativo 03",
+      "email": "cliente3@example.com",
+      "cidade": "Sombrio",
+      "telefone": null
+    },
+    {
+      "id": 4,
+      "nome": "Cliente demonstrativo 04",
+      "email": "cliente4@example.com",
+      "cidade": "Araranguá",
+      "telefone": null
+    },
+    {
+      "id": 5,
+      "nome": "Cliente demonstrativo 05",
+      "email": "cliente5@example.com",
+      "cidade": "Turvo",
+      "telefone": null
+    },
+    {
+      "id": 6,
+      "nome": "Cliente demonstrativo 06",
+      "email": "cliente6@example.com",
+      "cidade": "Criciúma",
+      "telefone": null
+    }
+  ],
+  "fornecedor": [
+    {
+      "id": 1,
+      "nome": "Fornecedor Frutas do Sul (fictício)",
+      "cidade": "Araranguá",
+      "contato": "frutas@example.com"
+    },
+    {
+      "id": 2,
+      "nome": "Fornecedor Safra Local (fictício)",
+      "cidade": "Turvo",
+      "contato": "safra@example.com"
+    },
+    {
+      "id": 3,
+      "nome": "Fornecedor Ingredientes Naturais (fictício)",
+      "cidade": "Criciúma",
+      "contato": "insumos@example.com"
+    }
+  ],
+  "ingrediente": [
+    {
+      "id": 1,
+      "nome": "Morango",
+      "unidade": "kg"
+    },
+    {
+      "id": 2,
+      "nome": "Manga",
+      "unidade": "kg"
+    },
+    {
+      "id": 3,
+      "nome": "Maracujá",
+      "unidade": "kg"
+    },
+    {
+      "id": 4,
+      "nome": "Uva",
+      "unidade": "kg"
+    },
+    {
+      "id": 5,
+      "nome": "Abacaxi",
+      "unidade": "kg"
+    },
+    {
+      "id": 6,
+      "nome": "Frutas vermelhas",
+      "unidade": "kg"
+    },
+    {
+      "id": 7,
+      "nome": "Açúcar demerara",
+      "unidade": "kg"
+    },
+    {
+      "id": 8,
+      "nome": "Xilitol",
+      "unidade": "kg"
+    },
+    {
+      "id": 9,
+      "nome": "Mel",
+      "unidade": "kg"
+    },
+    {
+      "id": 10,
+      "nome": "Pectina",
+      "unidade": "kg"
+    }
+  ],
+  "produto": [
+    {
+      "id": 1,
+      "nome": "Bala de morango - 40 g",
+      "sabor": "Morango",
+      "adocante": "demerara",
+      "vegano": true,
+      "peso_g": 40,
+      "preco_referencia": 8
+    },
+    {
+      "id": 2,
+      "nome": "Bala de manga - 40 g",
+      "sabor": "Manga",
+      "adocante": "demerara",
+      "vegano": true,
+      "peso_g": 40,
+      "preco_referencia": 8
+    },
+    {
+      "id": 3,
+      "nome": "Bala de maracujá - 40 g",
+      "sabor": "Maracujá",
+      "adocante": "xilitol",
+      "vegano": true,
+      "peso_g": 40,
+      "preco_referencia": 10
+    },
+    {
+      "id": 4,
+      "nome": "Bala de uva - 40 g",
+      "sabor": "Uva",
+      "adocante": "mel",
+      "vegano": false,
+      "peso_g": 40,
+      "preco_referencia": 9
+    },
+    {
+      "id": 5,
+      "nome": "Bala de abacaxi - 40 g",
+      "sabor": "Abacaxi",
+      "adocante": "demerara",
+      "vegano": true,
+      "peso_g": 40,
+      "preco_referencia": 8
+    },
+    {
+      "id": 6,
+      "nome": "Bala de frutas vermelhas - 40 g",
+      "sabor": "Frutas vermelhas",
+      "adocante": "xilitol",
+      "vegano": true,
+      "peso_g": 40,
+      "preco_referencia": 11
+    }
+  ],
+  "formulacao": [
+    {
+      "id": 1,
+      "produto_id": 1,
+      "ingrediente_id": 1,
+      "kg_por_100_unidades": 4.0
+    },
+    {
+      "id": 2,
+      "produto_id": 1,
+      "ingrediente_id": 7,
+      "kg_por_100_unidades": 0.5
+    },
+    {
+      "id": 3,
+      "produto_id": 1,
+      "ingrediente_id": 10,
+      "kg_por_100_unidades": 0.1
+    },
+    {
+      "id": 4,
+      "produto_id": 2,
+      "ingrediente_id": 2,
+      "kg_por_100_unidades": 4.0
+    },
+    {
+      "id": 5,
+      "produto_id": 2,
+      "ingrediente_id": 7,
+      "kg_por_100_unidades": 0.5
+    },
+    {
+      "id": 6,
+      "produto_id": 2,
+      "ingrediente_id": 10,
+      "kg_por_100_unidades": 0.1
+    },
+    {
+      "id": 7,
+      "produto_id": 3,
+      "ingrediente_id": 3,
+      "kg_por_100_unidades": 4.0
+    },
+    {
+      "id": 8,
+      "produto_id": 3,
+      "ingrediente_id": 8,
+      "kg_por_100_unidades": 0.5
+    },
+    {
+      "id": 9,
+      "produto_id": 3,
+      "ingrediente_id": 10,
+      "kg_por_100_unidades": 0.1
+    },
+    {
+      "id": 10,
+      "produto_id": 4,
+      "ingrediente_id": 4,
+      "kg_por_100_unidades": 4.0
+    },
+    {
+      "id": 11,
+      "produto_id": 4,
+      "ingrediente_id": 9,
+      "kg_por_100_unidades": 0.5
+    },
+    {
+      "id": 12,
+      "produto_id": 4,
+      "ingrediente_id": 10,
+      "kg_por_100_unidades": 0.1
+    },
+    {
+      "id": 13,
+      "produto_id": 5,
+      "ingrediente_id": 5,
+      "kg_por_100_unidades": 4.0
+    },
+    {
+      "id": 14,
+      "produto_id": 5,
+      "ingrediente_id": 7,
+      "kg_por_100_unidades": 0.5
+    },
+    {
+      "id": 15,
+      "produto_id": 5,
+      "ingrediente_id": 10,
+      "kg_por_100_unidades": 0.1
+    },
+    {
+      "id": 16,
+      "produto_id": 6,
+      "ingrediente_id": 6,
+      "kg_por_100_unidades": 4.0
+    },
+    {
+      "id": 17,
+      "produto_id": 6,
+      "ingrediente_id": 8,
+      "kg_por_100_unidades": 0.5
+    },
+    {
+      "id": 18,
+      "produto_id": 6,
+      "ingrediente_id": 10,
+      "kg_por_100_unidades": 0.1
+    }
+  ],
+  "lote_insumo": [
+    {
+      "id": 1,
+      "fornecedor_id": 1,
+      "ingrediente_id": 1,
+      "codigo": "INS-07-01",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 30,
+      "custo_kg": 18
+    },
+    {
+      "id": 2,
+      "fornecedor_id": 2,
+      "ingrediente_id": 2,
+      "codigo": "INS-07-02",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 30,
+      "custo_kg": 10
+    },
+    {
+      "id": 3,
+      "fornecedor_id": 1,
+      "ingrediente_id": 3,
+      "codigo": "INS-07-03",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 30,
+      "custo_kg": 14
+    },
+    {
+      "id": 4,
+      "fornecedor_id": 2,
+      "ingrediente_id": 4,
+      "codigo": "INS-07-04",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 30,
+      "custo_kg": 12
+    },
+    {
+      "id": 5,
+      "fornecedor_id": 1,
+      "ingrediente_id": 5,
+      "codigo": "INS-07-05",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 30,
+      "custo_kg": 8
+    },
+    {
+      "id": 6,
+      "fornecedor_id": 2,
+      "ingrediente_id": 6,
+      "codigo": "INS-07-06",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 30,
+      "custo_kg": 22
+    },
+    {
+      "id": 7,
+      "fornecedor_id": 3,
+      "ingrediente_id": 7,
+      "codigo": "INS-07-07",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 20,
+      "custo_kg": 6
+    },
+    {
+      "id": 8,
+      "fornecedor_id": 3,
+      "ingrediente_id": 8,
+      "codigo": "INS-07-08",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 20,
+      "custo_kg": 32
+    },
+    {
+      "id": 9,
+      "fornecedor_id": 3,
+      "ingrediente_id": 9,
+      "codigo": "INS-07-09",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 20,
+      "custo_kg": 25
+    },
+    {
+      "id": 10,
+      "fornecedor_id": 3,
+      "ingrediente_id": 10,
+      "codigo": "INS-07-10",
+      "recebido_em": "2026-07-01",
+      "validade": "2026-08-05",
+      "quantidade_kg": 20,
+      "custo_kg": 45
+    },
+    {
+      "id": 11,
+      "fornecedor_id": 1,
+      "ingrediente_id": 1,
+      "codigo": "INS-08-01",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 30,
+      "custo_kg": 18
+    },
+    {
+      "id": 12,
+      "fornecedor_id": 2,
+      "ingrediente_id": 2,
+      "codigo": "INS-08-02",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 30,
+      "custo_kg": 10
+    },
+    {
+      "id": 13,
+      "fornecedor_id": 1,
+      "ingrediente_id": 3,
+      "codigo": "INS-08-03",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 30,
+      "custo_kg": 14
+    },
+    {
+      "id": 14,
+      "fornecedor_id": 2,
+      "ingrediente_id": 4,
+      "codigo": "INS-08-04",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 30,
+      "custo_kg": 12
+    },
+    {
+      "id": 15,
+      "fornecedor_id": 1,
+      "ingrediente_id": 5,
+      "codigo": "INS-08-05",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 30,
+      "custo_kg": 8
+    },
+    {
+      "id": 16,
+      "fornecedor_id": 2,
+      "ingrediente_id": 6,
+      "codigo": "INS-08-06",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 30,
+      "custo_kg": 22
+    },
+    {
+      "id": 17,
+      "fornecedor_id": 3,
+      "ingrediente_id": 7,
+      "codigo": "INS-08-07",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 20,
+      "custo_kg": 6
+    },
+    {
+      "id": 18,
+      "fornecedor_id": 3,
+      "ingrediente_id": 8,
+      "codigo": "INS-08-08",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 20,
+      "custo_kg": 32
+    },
+    {
+      "id": 19,
+      "fornecedor_id": 3,
+      "ingrediente_id": 9,
+      "codigo": "INS-08-09",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 20,
+      "custo_kg": 25
+    },
+    {
+      "id": 20,
+      "fornecedor_id": 3,
+      "ingrediente_id": 10,
+      "codigo": "INS-08-10",
+      "recebido_em": "2026-08-01",
+      "validade": "2026-09-05",
+      "quantidade_kg": 20,
+      "custo_kg": 45
+    },
+    {
+      "id": 21,
+      "fornecedor_id": 1,
+      "ingrediente_id": 1,
+      "codigo": "INS-09-01",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 30,
+      "custo_kg": 18
+    },
+    {
+      "id": 22,
+      "fornecedor_id": 2,
+      "ingrediente_id": 2,
+      "codigo": "INS-09-02",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 30,
+      "custo_kg": 10
+    },
+    {
+      "id": 23,
+      "fornecedor_id": 1,
+      "ingrediente_id": 3,
+      "codigo": "INS-09-03",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 30,
+      "custo_kg": 14
+    },
+    {
+      "id": 24,
+      "fornecedor_id": 2,
+      "ingrediente_id": 4,
+      "codigo": "INS-09-04",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 30,
+      "custo_kg": 12
+    },
+    {
+      "id": 25,
+      "fornecedor_id": 1,
+      "ingrediente_id": 5,
+      "codigo": "INS-09-05",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 30,
+      "custo_kg": 8
+    },
+    {
+      "id": 26,
+      "fornecedor_id": 2,
+      "ingrediente_id": 6,
+      "codigo": "INS-09-06",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 30,
+      "custo_kg": 22
+    },
+    {
+      "id": 27,
+      "fornecedor_id": 3,
+      "ingrediente_id": 7,
+      "codigo": "INS-09-07",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 20,
+      "custo_kg": 6
+    },
+    {
+      "id": 28,
+      "fornecedor_id": 3,
+      "ingrediente_id": 8,
+      "codigo": "INS-09-08",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 20,
+      "custo_kg": 32
+    },
+    {
+      "id": 29,
+      "fornecedor_id": 3,
+      "ingrediente_id": 9,
+      "codigo": "INS-09-09",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 20,
+      "custo_kg": 25
+    },
+    {
+      "id": 30,
+      "fornecedor_id": 3,
+      "ingrediente_id": 10,
+      "codigo": "INS-09-10",
+      "recebido_em": "2026-09-01",
+      "validade": "2026-10-06",
+      "quantidade_kg": 20,
+      "custo_kg": 45
+    },
+    {
+      "id": 31,
+      "fornecedor_id": 1,
+      "ingrediente_id": 1,
+      "codigo": "INS-10-01",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 30,
+      "custo_kg": 18
+    },
+    {
+      "id": 32,
+      "fornecedor_id": 2,
+      "ingrediente_id": 2,
+      "codigo": "INS-10-02",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 30,
+      "custo_kg": 10
+    },
+    {
+      "id": 33,
+      "fornecedor_id": 1,
+      "ingrediente_id": 3,
+      "codigo": "INS-10-03",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 30,
+      "custo_kg": 14
+    },
+    {
+      "id": 34,
+      "fornecedor_id": 2,
+      "ingrediente_id": 4,
+      "codigo": "INS-10-04",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 30,
+      "custo_kg": 12
+    },
+    {
+      "id": 35,
+      "fornecedor_id": 1,
+      "ingrediente_id": 5,
+      "codigo": "INS-10-05",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 30,
+      "custo_kg": 8
+    },
+    {
+      "id": 36,
+      "fornecedor_id": 2,
+      "ingrediente_id": 6,
+      "codigo": "INS-10-06",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 30,
+      "custo_kg": 22
+    },
+    {
+      "id": 37,
+      "fornecedor_id": 3,
+      "ingrediente_id": 7,
+      "codigo": "INS-10-07",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 20,
+      "custo_kg": 6
+    },
+    {
+      "id": 38,
+      "fornecedor_id": 3,
+      "ingrediente_id": 8,
+      "codigo": "INS-10-08",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 20,
+      "custo_kg": 32
+    },
+    {
+      "id": 39,
+      "fornecedor_id": 3,
+      "ingrediente_id": 9,
+      "codigo": "INS-10-09",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 20,
+      "custo_kg": 25
+    },
+    {
+      "id": 40,
+      "fornecedor_id": 3,
+      "ingrediente_id": 10,
+      "codigo": "INS-10-10",
+      "recebido_em": "2026-10-01",
+      "validade": "2026-11-05",
+      "quantidade_kg": 20,
+      "custo_kg": 45
+    },
+    {
+      "id": 41,
+      "fornecedor_id": 1,
+      "ingrediente_id": 1,
+      "codigo": "INS-11-01",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 30,
+      "custo_kg": 18
+    },
+    {
+      "id": 42,
+      "fornecedor_id": 2,
+      "ingrediente_id": 2,
+      "codigo": "INS-11-02",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 30,
+      "custo_kg": 10
+    },
+    {
+      "id": 43,
+      "fornecedor_id": 1,
+      "ingrediente_id": 3,
+      "codigo": "INS-11-03",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 30,
+      "custo_kg": 14
+    },
+    {
+      "id": 44,
+      "fornecedor_id": 2,
+      "ingrediente_id": 4,
+      "codigo": "INS-11-04",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 30,
+      "custo_kg": 12
+    },
+    {
+      "id": 45,
+      "fornecedor_id": 1,
+      "ingrediente_id": 5,
+      "codigo": "INS-11-05",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 30,
+      "custo_kg": 8
+    },
+    {
+      "id": 46,
+      "fornecedor_id": 2,
+      "ingrediente_id": 6,
+      "codigo": "INS-11-06",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 30,
+      "custo_kg": 22
+    },
+    {
+      "id": 47,
+      "fornecedor_id": 3,
+      "ingrediente_id": 7,
+      "codigo": "INS-11-07",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 20,
+      "custo_kg": 6
+    },
+    {
+      "id": 48,
+      "fornecedor_id": 3,
+      "ingrediente_id": 8,
+      "codigo": "INS-11-08",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 20,
+      "custo_kg": 32
+    },
+    {
+      "id": 49,
+      "fornecedor_id": 3,
+      "ingrediente_id": 9,
+      "codigo": "INS-11-09",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 20,
+      "custo_kg": 25
+    },
+    {
+      "id": 50,
+      "fornecedor_id": 3,
+      "ingrediente_id": 10,
+      "codigo": "INS-11-10",
+      "recebido_em": "2026-11-01",
+      "validade": "2026-12-06",
+      "quantidade_kg": 20,
+      "custo_kg": 45
+    },
+    {
+      "id": 51,
+      "fornecedor_id": 1,
+      "ingrediente_id": 1,
+      "codigo": "INS-12-01",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 30,
+      "custo_kg": 18
+    },
+    {
+      "id": 52,
+      "fornecedor_id": 2,
+      "ingrediente_id": 2,
+      "codigo": "INS-12-02",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 30,
+      "custo_kg": 10
+    },
+    {
+      "id": 53,
+      "fornecedor_id": 1,
+      "ingrediente_id": 3,
+      "codigo": "INS-12-03",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 30,
+      "custo_kg": 14
+    },
+    {
+      "id": 54,
+      "fornecedor_id": 2,
+      "ingrediente_id": 4,
+      "codigo": "INS-12-04",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 30,
+      "custo_kg": 12
+    },
+    {
+      "id": 55,
+      "fornecedor_id": 1,
+      "ingrediente_id": 5,
+      "codigo": "INS-12-05",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 30,
+      "custo_kg": 8
+    },
+    {
+      "id": 56,
+      "fornecedor_id": 2,
+      "ingrediente_id": 6,
+      "codigo": "INS-12-06",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 30,
+      "custo_kg": 22
+    },
+    {
+      "id": 57,
+      "fornecedor_id": 3,
+      "ingrediente_id": 7,
+      "codigo": "INS-12-07",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 20,
+      "custo_kg": 6
+    },
+    {
+      "id": 58,
+      "fornecedor_id": 3,
+      "ingrediente_id": 8,
+      "codigo": "INS-12-08",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 20,
+      "custo_kg": 32
+    },
+    {
+      "id": 59,
+      "fornecedor_id": 3,
+      "ingrediente_id": 9,
+      "codigo": "INS-12-09",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 20,
+      "custo_kg": 25
+    },
+    {
+      "id": 60,
+      "fornecedor_id": 3,
+      "ingrediente_id": 10,
+      "codigo": "INS-12-10",
+      "recebido_em": "2026-12-01",
+      "validade": "2027-01-05",
+      "quantidade_kg": 20,
+      "custo_kg": 45
+    }
+  ],
+  "lote_producao": [
+    {
+      "id": 1,
+      "produto_id": 1,
+      "codigo": "PROD-07-01",
+      "produzido_em": "2026-07-03",
+      "validade": "2026-07-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 2,
+      "produto_id": 2,
+      "codigo": "PROD-07-02",
+      "produzido_em": "2026-07-03",
+      "validade": "2026-07-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 3,
+      "produto_id": 3,
+      "codigo": "PROD-07-03",
+      "produzido_em": "2026-07-03",
+      "validade": "2026-07-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 4,
+      "produto_id": 4,
+      "codigo": "PROD-07-04",
+      "produzido_em": "2026-07-03",
+      "validade": "2026-07-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 5,
+      "produto_id": 5,
+      "codigo": "PROD-07-05",
+      "produzido_em": "2026-07-03",
+      "validade": "2026-07-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 6,
+      "produto_id": 6,
+      "codigo": "PROD-07-06",
+      "produzido_em": "2026-07-03",
+      "validade": "2026-07-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 7,
+      "produto_id": 1,
+      "codigo": "PROD-08-01",
+      "produzido_em": "2026-08-03",
+      "validade": "2026-08-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 8,
+      "produto_id": 2,
+      "codigo": "PROD-08-02",
+      "produzido_em": "2026-08-03",
+      "validade": "2026-08-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 9,
+      "produto_id": 3,
+      "codigo": "PROD-08-03",
+      "produzido_em": "2026-08-03",
+      "validade": "2026-08-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 10,
+      "produto_id": 4,
+      "codigo": "PROD-08-04",
+      "produzido_em": "2026-08-03",
+      "validade": "2026-08-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 11,
+      "produto_id": 5,
+      "codigo": "PROD-08-05",
+      "produzido_em": "2026-08-03",
+      "validade": "2026-08-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 12,
+      "produto_id": 6,
+      "codigo": "PROD-08-06",
+      "produzido_em": "2026-08-03",
+      "validade": "2026-08-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 13,
+      "produto_id": 1,
+      "codigo": "PROD-09-01",
+      "produzido_em": "2026-09-03",
+      "validade": "2026-10-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 14,
+      "produto_id": 2,
+      "codigo": "PROD-09-02",
+      "produzido_em": "2026-09-03",
+      "validade": "2026-10-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 15,
+      "produto_id": 3,
+      "codigo": "PROD-09-03",
+      "produzido_em": "2026-09-03",
+      "validade": "2026-10-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 16,
+      "produto_id": 4,
+      "codigo": "PROD-09-04",
+      "produzido_em": "2026-09-03",
+      "validade": "2026-10-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 17,
+      "produto_id": 5,
+      "codigo": "PROD-09-05",
+      "produzido_em": "2026-09-03",
+      "validade": "2026-10-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 18,
+      "produto_id": 6,
+      "codigo": "PROD-09-06",
+      "produzido_em": "2026-09-03",
+      "validade": "2026-10-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 19,
+      "produto_id": 1,
+      "codigo": "PROD-10-01",
+      "produzido_em": "2026-10-03",
+      "validade": "2026-10-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 20,
+      "produto_id": 2,
+      "codigo": "PROD-10-02",
+      "produzido_em": "2026-10-03",
+      "validade": "2026-10-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 21,
+      "produto_id": 3,
+      "codigo": "PROD-10-03",
+      "produzido_em": "2026-10-03",
+      "validade": "2026-10-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 22,
+      "produto_id": 4,
+      "codigo": "PROD-10-04",
+      "produzido_em": "2026-10-03",
+      "validade": "2026-10-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 23,
+      "produto_id": 5,
+      "codigo": "PROD-10-05",
+      "produzido_em": "2026-10-03",
+      "validade": "2026-10-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 24,
+      "produto_id": 6,
+      "codigo": "PROD-10-06",
+      "produzido_em": "2026-10-03",
+      "validade": "2026-10-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 25,
+      "produto_id": 1,
+      "codigo": "PROD-11-01",
+      "produzido_em": "2026-11-03",
+      "validade": "2026-12-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 26,
+      "produto_id": 2,
+      "codigo": "PROD-11-02",
+      "produzido_em": "2026-11-03",
+      "validade": "2026-12-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 27,
+      "produto_id": 3,
+      "codigo": "PROD-11-03",
+      "produzido_em": "2026-11-03",
+      "validade": "2026-12-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 28,
+      "produto_id": 4,
+      "codigo": "PROD-11-04",
+      "produzido_em": "2026-11-03",
+      "validade": "2026-12-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 29,
+      "produto_id": 5,
+      "codigo": "PROD-11-05",
+      "produzido_em": "2026-11-03",
+      "validade": "2026-12-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 30,
+      "produto_id": 6,
+      "codigo": "PROD-11-06",
+      "produzido_em": "2026-11-03",
+      "validade": "2026-12-01",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 31,
+      "produto_id": 1,
+      "codigo": "PROD-12-01",
+      "produzido_em": "2026-12-03",
+      "validade": "2026-12-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 32,
+      "produto_id": 2,
+      "codigo": "PROD-12-02",
+      "produzido_em": "2026-12-03",
+      "validade": "2026-12-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 33,
+      "produto_id": 3,
+      "codigo": "PROD-12-03",
+      "produzido_em": "2026-12-03",
+      "validade": "2026-12-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 34,
+      "produto_id": 4,
+      "codigo": "PROD-12-04",
+      "produzido_em": "2026-12-03",
+      "validade": "2026-12-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 35,
+      "produto_id": 5,
+      "codigo": "PROD-12-05",
+      "produzido_em": "2026-12-03",
+      "validade": "2026-12-31",
+      "quantidade_unidades": 100
+    },
+    {
+      "id": 36,
+      "produto_id": 6,
+      "codigo": "PROD-12-06",
+      "produzido_em": "2026-12-03",
+      "validade": "2026-12-31",
+      "quantidade_unidades": 100
+    }
+  ],
+  "consumo_insumo": [
+    {
+      "id": 1,
+      "lote_producao_id": 1,
+      "lote_insumo_id": 1,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 2,
+      "lote_producao_id": 1,
+      "lote_insumo_id": 7,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 3,
+      "lote_producao_id": 1,
+      "lote_insumo_id": 10,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 4,
+      "lote_producao_id": 2,
+      "lote_insumo_id": 2,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 5,
+      "lote_producao_id": 2,
+      "lote_insumo_id": 7,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 6,
+      "lote_producao_id": 2,
+      "lote_insumo_id": 10,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 7,
+      "lote_producao_id": 3,
+      "lote_insumo_id": 3,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 8,
+      "lote_producao_id": 3,
+      "lote_insumo_id": 8,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 9,
+      "lote_producao_id": 3,
+      "lote_insumo_id": 10,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 10,
+      "lote_producao_id": 4,
+      "lote_insumo_id": 4,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 11,
+      "lote_producao_id": 4,
+      "lote_insumo_id": 9,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 12,
+      "lote_producao_id": 4,
+      "lote_insumo_id": 10,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 13,
+      "lote_producao_id": 5,
+      "lote_insumo_id": 5,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 14,
+      "lote_producao_id": 5,
+      "lote_insumo_id": 7,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 15,
+      "lote_producao_id": 5,
+      "lote_insumo_id": 10,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 16,
+      "lote_producao_id": 6,
+      "lote_insumo_id": 6,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 17,
+      "lote_producao_id": 6,
+      "lote_insumo_id": 8,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 18,
+      "lote_producao_id": 6,
+      "lote_insumo_id": 10,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 19,
+      "lote_producao_id": 7,
+      "lote_insumo_id": 11,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 20,
+      "lote_producao_id": 7,
+      "lote_insumo_id": 17,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 21,
+      "lote_producao_id": 7,
+      "lote_insumo_id": 20,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 22,
+      "lote_producao_id": 8,
+      "lote_insumo_id": 12,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 23,
+      "lote_producao_id": 8,
+      "lote_insumo_id": 17,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 24,
+      "lote_producao_id": 8,
+      "lote_insumo_id": 20,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 25,
+      "lote_producao_id": 9,
+      "lote_insumo_id": 13,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 26,
+      "lote_producao_id": 9,
+      "lote_insumo_id": 18,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 27,
+      "lote_producao_id": 9,
+      "lote_insumo_id": 20,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 28,
+      "lote_producao_id": 10,
+      "lote_insumo_id": 14,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 29,
+      "lote_producao_id": 10,
+      "lote_insumo_id": 19,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 30,
+      "lote_producao_id": 10,
+      "lote_insumo_id": 20,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 31,
+      "lote_producao_id": 11,
+      "lote_insumo_id": 15,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 32,
+      "lote_producao_id": 11,
+      "lote_insumo_id": 17,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 33,
+      "lote_producao_id": 11,
+      "lote_insumo_id": 20,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 34,
+      "lote_producao_id": 12,
+      "lote_insumo_id": 16,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 35,
+      "lote_producao_id": 12,
+      "lote_insumo_id": 18,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 36,
+      "lote_producao_id": 12,
+      "lote_insumo_id": 20,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 37,
+      "lote_producao_id": 13,
+      "lote_insumo_id": 21,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 38,
+      "lote_producao_id": 13,
+      "lote_insumo_id": 27,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 39,
+      "lote_producao_id": 13,
+      "lote_insumo_id": 30,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 40,
+      "lote_producao_id": 14,
+      "lote_insumo_id": 22,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 41,
+      "lote_producao_id": 14,
+      "lote_insumo_id": 27,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 42,
+      "lote_producao_id": 14,
+      "lote_insumo_id": 30,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 43,
+      "lote_producao_id": 15,
+      "lote_insumo_id": 23,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 44,
+      "lote_producao_id": 15,
+      "lote_insumo_id": 28,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 45,
+      "lote_producao_id": 15,
+      "lote_insumo_id": 30,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 46,
+      "lote_producao_id": 16,
+      "lote_insumo_id": 24,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 47,
+      "lote_producao_id": 16,
+      "lote_insumo_id": 29,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 48,
+      "lote_producao_id": 16,
+      "lote_insumo_id": 30,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 49,
+      "lote_producao_id": 17,
+      "lote_insumo_id": 25,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 50,
+      "lote_producao_id": 17,
+      "lote_insumo_id": 27,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 51,
+      "lote_producao_id": 17,
+      "lote_insumo_id": 30,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 52,
+      "lote_producao_id": 18,
+      "lote_insumo_id": 26,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 53,
+      "lote_producao_id": 18,
+      "lote_insumo_id": 28,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 54,
+      "lote_producao_id": 18,
+      "lote_insumo_id": 30,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 55,
+      "lote_producao_id": 19,
+      "lote_insumo_id": 31,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 56,
+      "lote_producao_id": 19,
+      "lote_insumo_id": 37,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 57,
+      "lote_producao_id": 19,
+      "lote_insumo_id": 40,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 58,
+      "lote_producao_id": 20,
+      "lote_insumo_id": 32,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 59,
+      "lote_producao_id": 20,
+      "lote_insumo_id": 37,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 60,
+      "lote_producao_id": 20,
+      "lote_insumo_id": 40,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 61,
+      "lote_producao_id": 21,
+      "lote_insumo_id": 33,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 62,
+      "lote_producao_id": 21,
+      "lote_insumo_id": 38,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 63,
+      "lote_producao_id": 21,
+      "lote_insumo_id": 40,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 64,
+      "lote_producao_id": 22,
+      "lote_insumo_id": 34,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 65,
+      "lote_producao_id": 22,
+      "lote_insumo_id": 39,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 66,
+      "lote_producao_id": 22,
+      "lote_insumo_id": 40,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 67,
+      "lote_producao_id": 23,
+      "lote_insumo_id": 35,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 68,
+      "lote_producao_id": 23,
+      "lote_insumo_id": 37,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 69,
+      "lote_producao_id": 23,
+      "lote_insumo_id": 40,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 70,
+      "lote_producao_id": 24,
+      "lote_insumo_id": 36,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 71,
+      "lote_producao_id": 24,
+      "lote_insumo_id": 38,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 72,
+      "lote_producao_id": 24,
+      "lote_insumo_id": 40,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 73,
+      "lote_producao_id": 25,
+      "lote_insumo_id": 41,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 74,
+      "lote_producao_id": 25,
+      "lote_insumo_id": 47,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 75,
+      "lote_producao_id": 25,
+      "lote_insumo_id": 50,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 76,
+      "lote_producao_id": 26,
+      "lote_insumo_id": 42,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 77,
+      "lote_producao_id": 26,
+      "lote_insumo_id": 47,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 78,
+      "lote_producao_id": 26,
+      "lote_insumo_id": 50,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 79,
+      "lote_producao_id": 27,
+      "lote_insumo_id": 43,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 80,
+      "lote_producao_id": 27,
+      "lote_insumo_id": 48,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 81,
+      "lote_producao_id": 27,
+      "lote_insumo_id": 50,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 82,
+      "lote_producao_id": 28,
+      "lote_insumo_id": 44,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 83,
+      "lote_producao_id": 28,
+      "lote_insumo_id": 49,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 84,
+      "lote_producao_id": 28,
+      "lote_insumo_id": 50,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 85,
+      "lote_producao_id": 29,
+      "lote_insumo_id": 45,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 86,
+      "lote_producao_id": 29,
+      "lote_insumo_id": 47,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 87,
+      "lote_producao_id": 29,
+      "lote_insumo_id": 50,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 88,
+      "lote_producao_id": 30,
+      "lote_insumo_id": 46,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 89,
+      "lote_producao_id": 30,
+      "lote_insumo_id": 48,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 90,
+      "lote_producao_id": 30,
+      "lote_insumo_id": 50,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 91,
+      "lote_producao_id": 31,
+      "lote_insumo_id": 51,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 92,
+      "lote_producao_id": 31,
+      "lote_insumo_id": 57,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 93,
+      "lote_producao_id": 31,
+      "lote_insumo_id": 60,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 94,
+      "lote_producao_id": 32,
+      "lote_insumo_id": 52,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 95,
+      "lote_producao_id": 32,
+      "lote_insumo_id": 57,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 96,
+      "lote_producao_id": 32,
+      "lote_insumo_id": 60,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 97,
+      "lote_producao_id": 33,
+      "lote_insumo_id": 53,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 98,
+      "lote_producao_id": 33,
+      "lote_insumo_id": 58,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 99,
+      "lote_producao_id": 33,
+      "lote_insumo_id": 60,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 100,
+      "lote_producao_id": 34,
+      "lote_insumo_id": 54,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 101,
+      "lote_producao_id": 34,
+      "lote_insumo_id": 59,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 102,
+      "lote_producao_id": 34,
+      "lote_insumo_id": 60,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 103,
+      "lote_producao_id": 35,
+      "lote_insumo_id": 55,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 104,
+      "lote_producao_id": 35,
+      "lote_insumo_id": 57,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 105,
+      "lote_producao_id": 35,
+      "lote_insumo_id": 60,
+      "quantidade_kg": 0.1
+    },
+    {
+      "id": 106,
+      "lote_producao_id": 36,
+      "lote_insumo_id": 56,
+      "quantidade_kg": 4.0
+    },
+    {
+      "id": 107,
+      "lote_producao_id": 36,
+      "lote_insumo_id": 58,
+      "quantidade_kg": 0.5
+    },
+    {
+      "id": 108,
+      "lote_producao_id": 36,
+      "lote_insumo_id": 60,
+      "quantidade_kg": 0.1
+    }
+  ],
+  "canal_venda": [
+    {
+      "id": 1,
+      "nome": "E-commerce"
+    },
+    {
+      "id": 2,
+      "nome": "Delivery regional"
+    },
+    {
+      "id": 3,
+      "nome": "Feira local"
+    }
+  ],
+  "pedido": [
+    {
+      "id": 1,
+      "cliente_id": 1,
+      "canal_venda_id": 1,
+      "data_pedido": "2026-07-10",
+      "status": "entregue"
+    },
+    {
+      "id": 2,
+      "cliente_id": 2,
+      "canal_venda_id": 2,
+      "data_pedido": "2026-07-11",
+      "status": "entregue"
+    },
+    {
+      "id": 3,
+      "cliente_id": 3,
+      "canal_venda_id": 3,
+      "data_pedido": "2026-07-12",
+      "status": "entregue"
+    },
+    {
+      "id": 4,
+      "cliente_id": 4,
+      "canal_venda_id": 1,
+      "data_pedido": "2026-08-10",
+      "status": "entregue"
+    },
+    {
+      "id": 5,
+      "cliente_id": 5,
+      "canal_venda_id": 2,
+      "data_pedido": "2026-08-11",
+      "status": "entregue"
+    },
+    {
+      "id": 6,
+      "cliente_id": 6,
+      "canal_venda_id": 3,
+      "data_pedido": "2026-08-12",
+      "status": "entregue"
+    },
+    {
+      "id": 7,
+      "cliente_id": 1,
+      "canal_venda_id": 1,
+      "data_pedido": "2026-09-10",
+      "status": "entregue"
+    },
+    {
+      "id": 8,
+      "cliente_id": 2,
+      "canal_venda_id": 2,
+      "data_pedido": "2026-09-11",
+      "status": "entregue"
+    },
+    {
+      "id": 9,
+      "cliente_id": 3,
+      "canal_venda_id": 3,
+      "data_pedido": "2026-09-12",
+      "status": "entregue"
+    },
+    {
+      "id": 10,
+      "cliente_id": 4,
+      "canal_venda_id": 1,
+      "data_pedido": "2026-10-10",
+      "status": "entregue"
+    },
+    {
+      "id": 11,
+      "cliente_id": 5,
+      "canal_venda_id": 2,
+      "data_pedido": "2026-10-11",
+      "status": "entregue"
+    },
+    {
+      "id": 12,
+      "cliente_id": 6,
+      "canal_venda_id": 3,
+      "data_pedido": "2026-10-12",
+      "status": "entregue"
+    },
+    {
+      "id": 13,
+      "cliente_id": 1,
+      "canal_venda_id": 1,
+      "data_pedido": "2026-11-10",
+      "status": "entregue"
+    },
+    {
+      "id": 14,
+      "cliente_id": 2,
+      "canal_venda_id": 2,
+      "data_pedido": "2026-11-11",
+      "status": "entregue"
+    },
+    {
+      "id": 15,
+      "cliente_id": 3,
+      "canal_venda_id": 3,
+      "data_pedido": "2026-11-12",
+      "status": "entregue"
+    },
+    {
+      "id": 16,
+      "cliente_id": 4,
+      "canal_venda_id": 1,
+      "data_pedido": "2026-12-10",
+      "status": "entregue"
+    },
+    {
+      "id": 17,
+      "cliente_id": 5,
+      "canal_venda_id": 2,
+      "data_pedido": "2026-12-11",
+      "status": "entregue"
+    },
+    {
+      "id": 18,
+      "cliente_id": 6,
+      "canal_venda_id": 3,
+      "data_pedido": "2026-12-12",
+      "status": "entregue"
+    }
+  ],
+  "item_pedido": [
+    {
+      "id": 1,
+      "pedido_id": 1,
+      "lote_producao_id": 1,
+      "quantidade": 5,
+      "preco_unitario": 8
+    },
+    {
+      "id": 2,
+      "pedido_id": 1,
+      "lote_producao_id": 2,
+      "quantidade": 6,
+      "preco_unitario": 8
+    },
+    {
+      "id": 3,
+      "pedido_id": 1,
+      "lote_producao_id": 3,
+      "quantidade": 4,
+      "preco_unitario": 10
+    },
+    {
+      "id": 4,
+      "pedido_id": 1,
+      "lote_producao_id": 4,
+      "quantidade": 5,
+      "preco_unitario": 9
+    },
+    {
+      "id": 5,
+      "pedido_id": 1,
+      "lote_producao_id": 5,
+      "quantidade": 6,
+      "preco_unitario": 8
+    },
+    {
+      "id": 6,
+      "pedido_id": 1,
+      "lote_producao_id": 6,
+      "quantidade": 4,
+      "preco_unitario": 11
+    },
+    {
+      "id": 7,
+      "pedido_id": 2,
+      "lote_producao_id": 1,
+      "quantidade": 6,
+      "preco_unitario": 8
+    },
+    {
+      "id": 8,
+      "pedido_id": 2,
+      "lote_producao_id": 2,
+      "quantidade": 7,
+      "preco_unitario": 8
+    },
+    {
+      "id": 9,
+      "pedido_id": 2,
+      "lote_producao_id": 3,
+      "quantidade": 5,
+      "preco_unitario": 10
+    },
+    {
+      "id": 10,
+      "pedido_id": 2,
+      "lote_producao_id": 4,
+      "quantidade": 6,
+      "preco_unitario": 9
+    },
+    {
+      "id": 11,
+      "pedido_id": 2,
+      "lote_producao_id": 5,
+      "quantidade": 7,
+      "preco_unitario": 8
+    },
+    {
+      "id": 12,
+      "pedido_id": 2,
+      "lote_producao_id": 6,
+      "quantidade": 5,
+      "preco_unitario": 11
+    },
+    {
+      "id": 13,
+      "pedido_id": 3,
+      "lote_producao_id": 1,
+      "quantidade": 7,
+      "preco_unitario": 8
+    },
+    {
+      "id": 14,
+      "pedido_id": 3,
+      "lote_producao_id": 2,
+      "quantidade": 8,
+      "preco_unitario": 8
+    },
+    {
+      "id": 15,
+      "pedido_id": 3,
+      "lote_producao_id": 3,
+      "quantidade": 6,
+      "preco_unitario": 10
+    },
+    {
+      "id": 16,
+      "pedido_id": 3,
+      "lote_producao_id": 4,
+      "quantidade": 7,
+      "preco_unitario": 9
+    },
+    {
+      "id": 17,
+      "pedido_id": 3,
+      "lote_producao_id": 5,
+      "quantidade": 8,
+      "preco_unitario": 8
+    },
+    {
+      "id": 18,
+      "pedido_id": 3,
+      "lote_producao_id": 6,
+      "quantidade": 6,
+      "preco_unitario": 11
+    },
+    {
+      "id": 19,
+      "pedido_id": 4,
+      "lote_producao_id": 7,
+      "quantidade": 7,
+      "preco_unitario": 8
+    },
+    {
+      "id": 20,
+      "pedido_id": 4,
+      "lote_producao_id": 8,
+      "quantidade": 8,
+      "preco_unitario": 8
+    },
+    {
+      "id": 21,
+      "pedido_id": 4,
+      "lote_producao_id": 9,
+      "quantidade": 6,
+      "preco_unitario": 10
+    },
+    {
+      "id": 22,
+      "pedido_id": 4,
+      "lote_producao_id": 10,
+      "quantidade": 7,
+      "preco_unitario": 9
+    },
+    {
+      "id": 23,
+      "pedido_id": 4,
+      "lote_producao_id": 11,
+      "quantidade": 8,
+      "preco_unitario": 8
+    },
+    {
+      "id": 24,
+      "pedido_id": 4,
+      "lote_producao_id": 12,
+      "quantidade": 6,
+      "preco_unitario": 11
+    },
+    {
+      "id": 25,
+      "pedido_id": 5,
+      "lote_producao_id": 7,
+      "quantidade": 8,
+      "preco_unitario": 8
+    },
+    {
+      "id": 26,
+      "pedido_id": 5,
+      "lote_producao_id": 8,
+      "quantidade": 9,
+      "preco_unitario": 8
+    },
+    {
+      "id": 27,
+      "pedido_id": 5,
+      "lote_producao_id": 9,
+      "quantidade": 7,
+      "preco_unitario": 10
+    },
+    {
+      "id": 28,
+      "pedido_id": 5,
+      "lote_producao_id": 10,
+      "quantidade": 8,
+      "preco_unitario": 9
+    },
+    {
+      "id": 29,
+      "pedido_id": 5,
+      "lote_producao_id": 11,
+      "quantidade": 9,
+      "preco_unitario": 8
+    },
+    {
+      "id": 30,
+      "pedido_id": 5,
+      "lote_producao_id": 12,
+      "quantidade": 7,
+      "preco_unitario": 11
+    },
+    {
+      "id": 31,
+      "pedido_id": 6,
+      "lote_producao_id": 7,
+      "quantidade": 9,
+      "preco_unitario": 8
+    },
+    {
+      "id": 32,
+      "pedido_id": 6,
+      "lote_producao_id": 8,
+      "quantidade": 10,
+      "preco_unitario": 8
+    },
+    {
+      "id": 33,
+      "pedido_id": 6,
+      "lote_producao_id": 9,
+      "quantidade": 8,
+      "preco_unitario": 10
+    },
+    {
+      "id": 34,
+      "pedido_id": 6,
+      "lote_producao_id": 10,
+      "quantidade": 9,
+      "preco_unitario": 9
+    },
+    {
+      "id": 35,
+      "pedido_id": 6,
+      "lote_producao_id": 11,
+      "quantidade": 10,
+      "preco_unitario": 8
+    },
+    {
+      "id": 36,
+      "pedido_id": 6,
+      "lote_producao_id": 12,
+      "quantidade": 8,
+      "preco_unitario": 11
+    },
+    {
+      "id": 37,
+      "pedido_id": 7,
+      "lote_producao_id": 13,
+      "quantidade": 9,
+      "preco_unitario": 8
+    },
+    {
+      "id": 38,
+      "pedido_id": 7,
+      "lote_producao_id": 14,
+      "quantidade": 10,
+      "preco_unitario": 8
+    },
+    {
+      "id": 39,
+      "pedido_id": 7,
+      "lote_producao_id": 15,
+      "quantidade": 8,
+      "preco_unitario": 10
+    },
+    {
+      "id": 40,
+      "pedido_id": 7,
+      "lote_producao_id": 16,
+      "quantidade": 9,
+      "preco_unitario": 9
+    },
+    {
+      "id": 41,
+      "pedido_id": 7,
+      "lote_producao_id": 17,
+      "quantidade": 10,
+      "preco_unitario": 8
+    },
+    {
+      "id": 42,
+      "pedido_id": 7,
+      "lote_producao_id": 18,
+      "quantidade": 8,
+      "preco_unitario": 11
+    },
+    {
+      "id": 43,
+      "pedido_id": 8,
+      "lote_producao_id": 13,
+      "quantidade": 10,
+      "preco_unitario": 8
+    },
+    {
+      "id": 44,
+      "pedido_id": 8,
+      "lote_producao_id": 14,
+      "quantidade": 11,
+      "preco_unitario": 8
+    },
+    {
+      "id": 45,
+      "pedido_id": 8,
+      "lote_producao_id": 15,
+      "quantidade": 9,
+      "preco_unitario": 10
+    },
+    {
+      "id": 46,
+      "pedido_id": 8,
+      "lote_producao_id": 16,
+      "quantidade": 10,
+      "preco_unitario": 9
+    },
+    {
+      "id": 47,
+      "pedido_id": 8,
+      "lote_producao_id": 17,
+      "quantidade": 11,
+      "preco_unitario": 8
+    },
+    {
+      "id": 48,
+      "pedido_id": 8,
+      "lote_producao_id": 18,
+      "quantidade": 9,
+      "preco_unitario": 11
+    },
+    {
+      "id": 49,
+      "pedido_id": 9,
+      "lote_producao_id": 13,
+      "quantidade": 11,
+      "preco_unitario": 8
+    },
+    {
+      "id": 50,
+      "pedido_id": 9,
+      "lote_producao_id": 14,
+      "quantidade": 12,
+      "preco_unitario": 8
+    },
+    {
+      "id": 51,
+      "pedido_id": 9,
+      "lote_producao_id": 15,
+      "quantidade": 10,
+      "preco_unitario": 10
+    },
+    {
+      "id": 52,
+      "pedido_id": 9,
+      "lote_producao_id": 16,
+      "quantidade": 11,
+      "preco_unitario": 9
+    },
+    {
+      "id": 53,
+      "pedido_id": 9,
+      "lote_producao_id": 17,
+      "quantidade": 12,
+      "preco_unitario": 8
+    },
+    {
+      "id": 54,
+      "pedido_id": 9,
+      "lote_producao_id": 18,
+      "quantidade": 10,
+      "preco_unitario": 11
+    },
+    {
+      "id": 55,
+      "pedido_id": 10,
+      "lote_producao_id": 19,
+      "quantidade": 11,
+      "preco_unitario": 8
+    },
+    {
+      "id": 56,
+      "pedido_id": 10,
+      "lote_producao_id": 20,
+      "quantidade": 12,
+      "preco_unitario": 8
+    },
+    {
+      "id": 57,
+      "pedido_id": 10,
+      "lote_producao_id": 21,
+      "quantidade": 10,
+      "preco_unitario": 10
+    },
+    {
+      "id": 58,
+      "pedido_id": 10,
+      "lote_producao_id": 22,
+      "quantidade": 11,
+      "preco_unitario": 9
+    },
+    {
+      "id": 59,
+      "pedido_id": 10,
+      "lote_producao_id": 23,
+      "quantidade": 12,
+      "preco_unitario": 8
+    },
+    {
+      "id": 60,
+      "pedido_id": 10,
+      "lote_producao_id": 24,
+      "quantidade": 10,
+      "preco_unitario": 11
+    },
+    {
+      "id": 61,
+      "pedido_id": 11,
+      "lote_producao_id": 19,
+      "quantidade": 12,
+      "preco_unitario": 8
+    },
+    {
+      "id": 62,
+      "pedido_id": 11,
+      "lote_producao_id": 20,
+      "quantidade": 13,
+      "preco_unitario": 8
+    },
+    {
+      "id": 63,
+      "pedido_id": 11,
+      "lote_producao_id": 21,
+      "quantidade": 11,
+      "preco_unitario": 10
+    },
+    {
+      "id": 64,
+      "pedido_id": 11,
+      "lote_producao_id": 22,
+      "quantidade": 12,
+      "preco_unitario": 9
+    },
+    {
+      "id": 65,
+      "pedido_id": 11,
+      "lote_producao_id": 23,
+      "quantidade": 13,
+      "preco_unitario": 8
+    },
+    {
+      "id": 66,
+      "pedido_id": 11,
+      "lote_producao_id": 24,
+      "quantidade": 11,
+      "preco_unitario": 11
+    },
+    {
+      "id": 67,
+      "pedido_id": 12,
+      "lote_producao_id": 19,
+      "quantidade": 13,
+      "preco_unitario": 8
+    },
+    {
+      "id": 68,
+      "pedido_id": 12,
+      "lote_producao_id": 20,
+      "quantidade": 14,
+      "preco_unitario": 8
+    },
+    {
+      "id": 69,
+      "pedido_id": 12,
+      "lote_producao_id": 21,
+      "quantidade": 12,
+      "preco_unitario": 10
+    },
+    {
+      "id": 70,
+      "pedido_id": 12,
+      "lote_producao_id": 22,
+      "quantidade": 13,
+      "preco_unitario": 9
+    },
+    {
+      "id": 71,
+      "pedido_id": 12,
+      "lote_producao_id": 23,
+      "quantidade": 14,
+      "preco_unitario": 8
+    },
+    {
+      "id": 72,
+      "pedido_id": 12,
+      "lote_producao_id": 24,
+      "quantidade": 12,
+      "preco_unitario": 11
+    },
+    {
+      "id": 73,
+      "pedido_id": 13,
+      "lote_producao_id": 25,
+      "quantidade": 13,
+      "preco_unitario": 8
+    },
+    {
+      "id": 74,
+      "pedido_id": 13,
+      "lote_producao_id": 26,
+      "quantidade": 14,
+      "preco_unitario": 8
+    },
+    {
+      "id": 75,
+      "pedido_id": 13,
+      "lote_producao_id": 27,
+      "quantidade": 12,
+      "preco_unitario": 10
+    },
+    {
+      "id": 76,
+      "pedido_id": 13,
+      "lote_producao_id": 28,
+      "quantidade": 13,
+      "preco_unitario": 9
+    },
+    {
+      "id": 77,
+      "pedido_id": 13,
+      "lote_producao_id": 29,
+      "quantidade": 14,
+      "preco_unitario": 8
+    },
+    {
+      "id": 78,
+      "pedido_id": 13,
+      "lote_producao_id": 30,
+      "quantidade": 12,
+      "preco_unitario": 11
+    },
+    {
+      "id": 79,
+      "pedido_id": 14,
+      "lote_producao_id": 25,
+      "quantidade": 14,
+      "preco_unitario": 8
+    },
+    {
+      "id": 80,
+      "pedido_id": 14,
+      "lote_producao_id": 26,
+      "quantidade": 15,
+      "preco_unitario": 8
+    },
+    {
+      "id": 81,
+      "pedido_id": 14,
+      "lote_producao_id": 27,
+      "quantidade": 13,
+      "preco_unitario": 10
+    },
+    {
+      "id": 82,
+      "pedido_id": 14,
+      "lote_producao_id": 28,
+      "quantidade": 14,
+      "preco_unitario": 9
+    },
+    {
+      "id": 83,
+      "pedido_id": 14,
+      "lote_producao_id": 29,
+      "quantidade": 15,
+      "preco_unitario": 8
+    },
+    {
+      "id": 84,
+      "pedido_id": 14,
+      "lote_producao_id": 30,
+      "quantidade": 13,
+      "preco_unitario": 11
+    },
+    {
+      "id": 85,
+      "pedido_id": 15,
+      "lote_producao_id": 25,
+      "quantidade": 15,
+      "preco_unitario": 8
+    },
+    {
+      "id": 86,
+      "pedido_id": 15,
+      "lote_producao_id": 26,
+      "quantidade": 16,
+      "preco_unitario": 8
+    },
+    {
+      "id": 87,
+      "pedido_id": 15,
+      "lote_producao_id": 27,
+      "quantidade": 14,
+      "preco_unitario": 10
+    },
+    {
+      "id": 88,
+      "pedido_id": 15,
+      "lote_producao_id": 28,
+      "quantidade": 15,
+      "preco_unitario": 9
+    },
+    {
+      "id": 89,
+      "pedido_id": 15,
+      "lote_producao_id": 29,
+      "quantidade": 16,
+      "preco_unitario": 8
+    },
+    {
+      "id": 90,
+      "pedido_id": 15,
+      "lote_producao_id": 30,
+      "quantidade": 14,
+      "preco_unitario": 11
+    },
+    {
+      "id": 91,
+      "pedido_id": 16,
+      "lote_producao_id": 31,
+      "quantidade": 15,
+      "preco_unitario": 8
+    },
+    {
+      "id": 92,
+      "pedido_id": 16,
+      "lote_producao_id": 32,
+      "quantidade": 16,
+      "preco_unitario": 8
+    },
+    {
+      "id": 93,
+      "pedido_id": 16,
+      "lote_producao_id": 33,
+      "quantidade": 14,
+      "preco_unitario": 10
+    },
+    {
+      "id": 94,
+      "pedido_id": 16,
+      "lote_producao_id": 34,
+      "quantidade": 15,
+      "preco_unitario": 9
+    },
+    {
+      "id": 95,
+      "pedido_id": 16,
+      "lote_producao_id": 35,
+      "quantidade": 16,
+      "preco_unitario": 8
+    },
+    {
+      "id": 96,
+      "pedido_id": 16,
+      "lote_producao_id": 36,
+      "quantidade": 14,
+      "preco_unitario": 11
+    },
+    {
+      "id": 97,
+      "pedido_id": 17,
+      "lote_producao_id": 31,
+      "quantidade": 16,
+      "preco_unitario": 8
+    },
+    {
+      "id": 98,
+      "pedido_id": 17,
+      "lote_producao_id": 32,
+      "quantidade": 17,
+      "preco_unitario": 8
+    },
+    {
+      "id": 99,
+      "pedido_id": 17,
+      "lote_producao_id": 33,
+      "quantidade": 15,
+      "preco_unitario": 10
+    },
+    {
+      "id": 100,
+      "pedido_id": 17,
+      "lote_producao_id": 34,
+      "quantidade": 16,
+      "preco_unitario": 9
+    },
+    {
+      "id": 101,
+      "pedido_id": 17,
+      "lote_producao_id": 35,
+      "quantidade": 17,
+      "preco_unitario": 8
+    },
+    {
+      "id": 102,
+      "pedido_id": 17,
+      "lote_producao_id": 36,
+      "quantidade": 15,
+      "preco_unitario": 11
+    },
+    {
+      "id": 103,
+      "pedido_id": 18,
+      "lote_producao_id": 31,
+      "quantidade": 17,
+      "preco_unitario": 8
+    },
+    {
+      "id": 104,
+      "pedido_id": 18,
+      "lote_producao_id": 32,
+      "quantidade": 18,
+      "preco_unitario": 8
+    },
+    {
+      "id": 105,
+      "pedido_id": 18,
+      "lote_producao_id": 33,
+      "quantidade": 16,
+      "preco_unitario": 10
+    },
+    {
+      "id": 106,
+      "pedido_id": 18,
+      "lote_producao_id": 34,
+      "quantidade": 17,
+      "preco_unitario": 9
+    },
+    {
+      "id": 107,
+      "pedido_id": 18,
+      "lote_producao_id": 35,
+      "quantidade": 18,
+      "preco_unitario": 8
+    },
+    {
+      "id": 108,
+      "pedido_id": 18,
+      "lote_producao_id": 36,
+      "quantidade": 16,
+      "preco_unitario": 11
+    }
+  ],
+  "pagamento": [
+    {
+      "id": 1,
+      "pedido_id": 1,
+      "pago_em": "2026-07-10",
+      "valor": 265,
+      "meio": "pix"
+    },
+    {
+      "id": 2,
+      "pedido_id": 2,
+      "pago_em": "2026-07-11",
+      "valor": 319,
+      "meio": "cartao"
+    },
+    {
+      "id": 3,
+      "pedido_id": 3,
+      "pago_em": "2026-07-12",
+      "valor": 373,
+      "meio": "dinheiro"
+    },
+    {
+      "id": 4,
+      "pedido_id": 4,
+      "pago_em": "2026-08-10",
+      "valor": 373,
+      "meio": "pix"
+    },
+    {
+      "id": 5,
+      "pedido_id": 5,
+      "pago_em": "2026-08-11",
+      "valor": 427,
+      "meio": "cartao"
+    },
+    {
+      "id": 6,
+      "pedido_id": 6,
+      "pago_em": "2026-08-12",
+      "valor": 481,
+      "meio": "dinheiro"
+    },
+    {
+      "id": 7,
+      "pedido_id": 7,
+      "pago_em": "2026-09-10",
+      "valor": 481,
+      "meio": "pix"
+    },
+    {
+      "id": 8,
+      "pedido_id": 8,
+      "pago_em": "2026-09-11",
+      "valor": 535,
+      "meio": "cartao"
+    },
+    {
+      "id": 9,
+      "pedido_id": 9,
+      "pago_em": "2026-09-12",
+      "valor": 589,
+      "meio": "dinheiro"
+    },
+    {
+      "id": 10,
+      "pedido_id": 10,
+      "pago_em": "2026-10-10",
+      "valor": 589,
+      "meio": "pix"
+    },
+    {
+      "id": 11,
+      "pedido_id": 11,
+      "pago_em": "2026-10-11",
+      "valor": 643,
+      "meio": "cartao"
+    },
+    {
+      "id": 12,
+      "pedido_id": 12,
+      "pago_em": "2026-10-12",
+      "valor": 697,
+      "meio": "dinheiro"
+    },
+    {
+      "id": 13,
+      "pedido_id": 13,
+      "pago_em": "2026-11-10",
+      "valor": 697,
+      "meio": "pix"
+    },
+    {
+      "id": 14,
+      "pedido_id": 14,
+      "pago_em": "2026-11-11",
+      "valor": 751,
+      "meio": "cartao"
+    },
+    {
+      "id": 15,
+      "pedido_id": 15,
+      "pago_em": "2026-11-12",
+      "valor": 805,
+      "meio": "dinheiro"
+    },
+    {
+      "id": 16,
+      "pedido_id": 16,
+      "pago_em": "2026-12-10",
+      "valor": 805,
+      "meio": "pix"
+    },
+    {
+      "id": 17,
+      "pedido_id": 17,
+      "pago_em": "2026-12-11",
+      "valor": 859,
+      "meio": "cartao"
+    },
+    {
+      "id": 18,
+      "pedido_id": 18,
+      "pago_em": "2026-12-12",
+      "valor": 913,
+      "meio": "dinheiro"
+    }
+  ],
+  "workshop": [
+    {
+      "id": 1,
+      "titulo": "Lanches naturais em casa",
+      "inicio": "2026-10-20 19:00:00",
+      "vagas": 20,
+      "preco": 35,
+      "url": "https://example.com/workshop-demonstrativo"
+    },
+    {
+      "id": 2,
+      "titulo": "Receitas com frutas da estação",
+      "inicio": "2026-11-20 19:00:00",
+      "vagas": 20,
+      "preco": 35,
+      "url": "https://example.com/workshop-demonstrativo"
+    },
+    {
+      "id": 3,
+      "titulo": "Aproveitamento integral das frutas",
+      "inicio": "2026-12-20 19:00:00",
+      "vagas": 20,
+      "preco": 35,
+      "url": "https://example.com/workshop-demonstrativo"
+    }
+  ],
+  "inscricao": [
+    {
+      "id": 1,
+      "cliente_id": 1,
+      "workshop_id": 1,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "cliente_id": 2,
+      "workshop_id": 1,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "cliente_id": 3,
+      "workshop_id": 1,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "cliente_id": 4,
+      "workshop_id": 1,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "cliente_id": 5,
+      "workshop_id": 2,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "cliente_id": 6,
+      "workshop_id": 2,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 7,
+      "cliente_id": 1,
+      "workshop_id": 2,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 8,
+      "cliente_id": 2,
+      "workshop_id": 2,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 9,
+      "cliente_id": 3,
+      "workshop_id": 3,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 10,
+      "cliente_id": 4,
+      "workshop_id": 3,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 11,
+      "cliente_id": 5,
+      "workshop_id": 3,
+      "inscrito_em": "2026-09-10"
+    },
+    {
+      "id": 12,
+      "cliente_id": 6,
+      "workshop_id": 3,
+      "inscrito_em": "2026-09-10"
+    }
+  ]
+}
