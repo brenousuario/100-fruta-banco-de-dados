@@ -1,0 +1,111 @@
+erDiagram
+    cliente {
+        integer id PK
+        varchar nome
+        varchar email
+        varchar cidade
+        varchar telefone
+    }
+    fornecedor {
+        integer id PK
+        varchar nome
+        varchar cidade
+        varchar contato
+    }
+    ingrediente {
+        integer id PK
+        varchar nome
+        varchar unidade
+    }
+    lote_insumo {
+        integer id PK
+        integer fornecedor_id FK
+        integer ingrediente_id FK
+        varchar codigo
+        date recebido_em
+        date validade
+        numeric quantidade_kg
+        numeric custo_kg
+    }
+    produto {
+        integer id PK
+        varchar nome
+        varchar sabor
+        varchar adocante
+        boolean vegano
+        integer peso_g
+        numeric preco_referencia
+    }
+    formulacao {
+        integer id PK
+        integer produto_id FK
+        integer ingrediente_id FK
+        numeric kg_por_100_unidades
+    }
+    lote_producao {
+        integer id PK
+        integer produto_id FK
+        varchar codigo
+        date produzido_em
+        date validade
+        integer quantidade_unidades
+    }
+    consumo_insumo {
+        integer id PK
+        integer lote_producao_id FK
+        integer lote_insumo_id FK
+        numeric quantidade_kg
+    }
+    canal_venda {
+        integer id PK
+        varchar nome
+    }
+    pedido {
+        integer id PK
+        integer cliente_id FK
+        integer canal_venda_id FK
+        date data_pedido
+        varchar status
+    }
+    item_pedido {
+        integer id PK
+        integer pedido_id FK
+        integer lote_producao_id FK
+        integer quantidade
+        numeric preco_unitario
+    }
+    pagamento {
+        integer id PK
+        integer pedido_id FK
+        date pago_em
+        numeric valor
+        varchar meio
+    }
+    workshop {
+        integer id PK
+        varchar titulo
+        timestamp inicio
+        integer vagas
+        numeric preco
+        varchar url
+    }
+    inscricao {
+        integer id PK
+        integer cliente_id FK
+        integer workshop_id FK
+        date inscrito_em
+    }
+    fornecedor ||--o{ lote_insumo : "fornecedor_id"
+    ingrediente ||--o{ lote_insumo : "ingrediente_id"
+    produto ||--o{ formulacao : "produto_id"
+    ingrediente ||--o{ formulacao : "ingrediente_id"
+    produto ||--o{ lote_producao : "produto_id"
+    lote_producao ||--o{ consumo_insumo : "lote_producao_id"
+    lote_insumo ||--o{ consumo_insumo : "lote_insumo_id"
+    cliente ||--o{ pedido : "cliente_id"
+    canal_venda ||--o{ pedido : "canal_venda_id"
+    pedido ||--o{ item_pedido : "pedido_id"
+    lote_producao ||--o{ item_pedido : "lote_producao_id"
+    pedido ||--o{ pagamento : "pedido_id"
+    cliente ||--o{ inscricao : "cliente_id"
+    workshop ||--o{ inscricao : "workshop_id"

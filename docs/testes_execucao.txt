@@ -1,0 +1,57 @@
+test_01_schema_and_seed (__main__.Integration.test_01_schema_and_seed) ... ok
+test_02_crud_all_14_tables (__main__.Integration.test_02_crud_all_14_tables) ... ok
+test_03_foreign_key_protects_parent (__main__.Integration.test_03_foreign_key_protects_parent) ... ok
+test_04_unique_and_check (__main__.Integration.test_04_unique_and_check) ... ok
+test_05_no_overdraw_ingredients (__main__.Integration.test_05_no_overdraw_ingredients) ... ok
+test_06_no_overdraw_products (__main__.Integration.test_06_no_overdraw_products) ... ok
+test_07_dates (__main__.Integration.test_07_dates) ... ok
+test_08_workshop (__main__.Integration.test_08_workshop) ... ok
+test_09_peps (__main__.Integration.test_09_peps) ... ok
+test_10_queries_match_independent_oracle (__main__.Integration.test_10_queries_match_independent_oracle) ... ok
+test_11_period_and_empty (__main__.Integration.test_11_period_and_empty) ... ok
+test_12_identifiers_and_parameters (__main__.Integration.test_12_identifiers_and_parameters) ... ok
+test_13_repeated_init_is_safe (__main__.Integration.test_13_repeated_init_is_safe) ... ok
+test_14_ai_http_contract_only_not_real_model (__main__.Integration.test_14_ai_http_contract_only_not_real_model) ... ok
+test_15_ai_error_no_fake_response (__main__.Integration.test_15_ai_error_no_fake_response) ... ok
+test_16_drop_and_recreate_transactionally (__main__.Integration.test_16_drop_and_recreate_transactionally) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.599s
+
+OK
+mes     | canal             | receita
+--------+-------------------+--------
+2026-07 | Delivery regional | 319.00 
+2026-07 | E-commerce        | 265.00 
+2026-07 | Feira local       | 373.00 
+2026-08 | Delivery regional | 427.00 
+2026-08 | E-commerce        | 373.00 
+2026-08 | Feira local       | 481.00 
+2026-09 | Delivery regional | 535.00 
+2026-09 | E-commerce        | 481.00 
+2026-09 | Feira local       | 589.00 
+2026-10 | Delivery regional | 643.00 
+2026-10 | E-commerce        | 589.00 
+2026-10 | Feira local       | 697.00 
+2026-11 | Delivery regional | 751.00 
+2026-11 | E-commerce        | 697.00 
+2026-11 | Feira local       | 805.00 
+2026-12 | Delivery regional | 859.00 
+2026-12 | E-commerce        | 805.00 
+2026-12 | Feira local       | 913.00 
+Tabela e gráfico: /workspace/scratch/4a5d7c448bf4/fruta100/resultados/consulta_1.html
+produto                         | unidades | receita
+--------------------------------+----------+--------
+Bala de frutas vermelhas - 40 g | 180      | 1980.00
+Bala de maracujá - 40 g         | 180      | 1800.00
+Bala de uva - 40 g              | 198      | 1782.00
+Bala de abacaxi - 40 g          | 216      | 1728.00
+Bala de manga - 40 g            | 216      | 1728.00
+Bala de morango - 40 g          | 198      | 1584.00
+Tabela e gráfico: /workspace/scratch/4a5d7c448bf4/fruta100/resultados/consulta_2.html
+fornecedor                                  | kg_consumidos | custo_insumos
+--------------------------------------------+---------------+--------------
+Fornecedor Safra Local (fictício)           | 72.000        | 1056.00      
+Fornecedor Frutas do Sul (fictício)         | 72.000        | 960.00       
+Fornecedor Ingredientes Naturais (fictício) | 21.600        | 483.00       
+Tabela e gráfico: /workspace/scratch/4a5d7c448bf4/fruta100/resultados/consulta_3.html
